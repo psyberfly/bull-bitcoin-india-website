@@ -2,10 +2,13 @@
 Website for Bull Bitcoin India. 
 
 # Stack
-Docker container running Next.js app (Typescript, Tailwind CSS)   
+  1. Next.js (Typescript, Tailwind CSS)   
+  2. Docker 
 
 # Usage
-sudo bash setup.sh 
+1. On a Linux install Docker, then
+2. ```bash
+   sudo bash setup.sh 
 
 # Dev
 
