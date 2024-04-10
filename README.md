@@ -1,6 +1,11 @@
 # About
-Website for Bull Bitcoin India
+Website for Bull Bitcoin India. 
 
+# Stack
+Docker container running Next.js app (Typescript, Tailwind CSS)   
+
+# Usage
+sudo bash setup.sh 
 
 # Dev
 
