@@ -1,0 +1,10 @@
+node_modules
+Dockerfile
+.dockerignore
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
