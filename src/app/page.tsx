@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Bull Bitcoin India</title>
         <meta name="description" content="Purchase Bitcoin in India" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" type="image/png"/>
       </Head>
 
       {/* Header */}
