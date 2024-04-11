@@ -4,7 +4,7 @@
 Website for Bull Bitcoin India. 
 
 ## Stack
-  1. Next.js (Typescript, Tailwind CSS)   
+  1. Next.js 14.1.4 (Typescript, Tailwind CSS)   
   2. Docker 
 
 ## Usage
