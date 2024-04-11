@@ -11,6 +11,7 @@ USER node
 ENV SERVER_PORT=3583
 
 RUN npm install
+RUN npx next telemetry disable
 
 COPY --chown=node:node . .
 

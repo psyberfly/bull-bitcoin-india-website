@@ -58,11 +58,12 @@ export default function Home() {
         {/* Text Content */}
         <div className="px-4 py-20 md:px-0" style={{ position: 'relative', zIndex: 1 }}>
           <h1 className="text-6xl font-bold mb-4 text-white">Own Your Money</h1>
-          <p className="text-2xl text-white">The best place to buy Bitcoin.
+          <p className="text-2xl text-white">The best place to buy Bitcoin!
           </p>
+          <h2 className="text-2xl py-3 font-bold mb-4 text-white">Coming Soon</h2>
+
         </div>
       </section>
-
 
 
       <section className="bg-custom-black ">
@@ -101,15 +102,15 @@ export default function Home() {
                 <span className="ml-2 font-semibold">Bull Bitcoin India</span>
               </div>
               <div className="flex justify-center md:justify-start space-x-4">
-                <Link href="https://x.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://twitter.com/bullbitcoin_" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/social-logo-x-white.png" alt="X" className="h-6 w-6 mx-2 cursor-pointer" />
                 </Link>
-                <Link href="https://telegram.org" target="_blank" rel="noopener noreferrer">
+                <Link href="https://t.me/bullbitcoinofficial" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/social-logo-telegram-white.png" alt="Telegram" className="h-6 w-6 mx-2 cursor-pointer" />
                 </Link>
-                <Link href="https://discord.com" target="_blank" rel="noopener noreferrer">
+                {/* <Link href="https://discord.com" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/social-logo-discord-white.png" alt="Discord" className="h-6 w-6 mx-2 cursor-pointer" />
-                </Link>
+                </Link> */}
                 <Link href="https://github.com/SatoshiPortal" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/social-logo-github-white.png" alt="Github" className="h-6 w-6 mx-2 cursor-pointer" />
                 </Link>
@@ -132,8 +133,6 @@ export default function Home() {
     </div>
   );
 }
-
-
 
 
 
