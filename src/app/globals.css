@@ -31,7 +31,18 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
+/* p { */
+/* 
+  font-family:  */
+/* } */
+/* h2 { */
+  /* font-family: 'Bebas Neue', sans-serif; */
+/* } */
 
+span {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size:x-large;
+}
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
