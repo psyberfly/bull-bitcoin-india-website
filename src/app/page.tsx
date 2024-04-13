@@ -9,24 +9,23 @@ export default function Home() {
       <Head>
         <title>Bull Bitcoin India</title>
         <meta name="description" content="Purchase Bitcoin in India" />
-        <link rel="icon" href="/favicon.png" type="image/png"/>
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
 
       {/* Header */}
       <header className="bg-custom-black text-white py-4">
-        <div className="container mx-auto flex justify-between items-center px-4 md:px-0">
-          <div className="flex items-center"> {/* Ensure logo and text are aligned */}
+        <div className="container mx-auto flex justify-between items-center  md:px-0">
+          <div className="flex items-center" style={{ height: 20 }}> {/* Ensure logo and text are aligned */}
             <Link href="/" passHref className="flex items-center">
 
               <Image
-                src="/logos/red-bull.png" // Adjust the path if necessary
+                src="/logos/white-bull.png" // Adjust the path if necessary
                 alt="Logo"
                 width={70} // Set the desired width
                 height={70} // And height, maintaining aspect ratio
               />
-              <span className="text-3xl font-semibold ml-3" style={{ fontFamily: "'Bebas Neue', sans-serif", }}>
-                Bull Bitcoin India
-              </span>
+              <span className="text-3xl" style={{ fontFamily: "'Bebas Neue', sans-serif", }}>
+                Bull Bitcoin India</span>
 
             </Link>
           </div>
@@ -43,7 +42,7 @@ export default function Home() {
       <section className="flex-1 flex items-center justify-center py-20 text-white text-center w-full bg-custom-red relative" style={{ position: 'relative', overflow: 'hidden' }}>
         {/* Simulated background image with controlled opacity */}
         <div style={{
-          backgroundImage: 'url("/logos/red-bull.png")',
+          backgroundImage: 'url("/logos/white-bull.png")',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'contain',
@@ -57,10 +56,10 @@ export default function Home() {
 
         {/* Text Content */}
         <div className="px-4 py-20 md:px-0" style={{ position: 'relative', zIndex: 1 }}>
-          <h1 className="text-6xl font-bold mb-4 text-white">Own Your Money</h1>
-          <p className="text-2xl text-white">The best place to buy Bitcoin!
-          </p>
-          <h2 className="text-2xl py-3 font-bold mb-4 text-white">Coming Soon</h2>
+          <h1 className="text-6xl mb-4 text-white">Own Your Money</h1>
+          <h2 className="text-2xl text-white">The best place to buy Bitcoin!
+          </h2>
+          <h4 className="text-4xl py-3 mb-4 text-white">Coming Soon</h4>
 
         </div>
       </section>
@@ -72,7 +71,7 @@ export default function Home() {
 
         {/* Blog Section */}
         <section className="container mx-auto my-12 px-4 md:px-0"> {/* Add padding here */}
-          <h2 className="text-3xl text-center font-bold mb-6">From Our Blog</h2>
+          <h2 className="text-3xl text-center mb-6">From Our Blog</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <a href="https://www.bullbitcoin.com/blog/bull-bitcoin-prime-services-for-bitcoin-investors-pdf-guide" target="_blank" rel="noopener noreferrer" className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
               <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Introducing the Bull Bitcoin Prime PDF Guide for Sovereign Investors</h3>
@@ -99,7 +98,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start">
               <div className="flex items-center mb-2">
                 <Image src="/logos/red-bull.png" alt="Logo" width={50} height={50} />
-                <span className="ml-2 font-semibold">Bull Bitcoin India</span>
+                <span className="">Bull Bitcoin India</span>
               </div>
               <div className="flex justify-center md:justify-start space-x-4">
                 <Link href="https://twitter.com/bullbitcoin_" target="_blank" rel="noopener noreferrer">
@@ -127,7 +126,7 @@ export default function Home() {
 
         {/* Copyright Text */}
         <p className="text-center text-sm">
-          © 2024 BPoonji Inc. All rights reserved.
+          © 2024 BPoonji Technologies Pvt. Ltd. All rights reserved.
         </p>
       </footer>
     </div>
