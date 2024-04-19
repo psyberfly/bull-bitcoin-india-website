@@ -40,8 +40,8 @@ export default function Home() {
 
       {/* Opening Banner */}
       <section className="flex-1 flex items-center justify-center py-20 text-white text-center w-full bg-custom-red relative" style={{ position: 'relative', overflow: 'hidden' }}>
-        {/* Simulated background image with controlled opacity */}
-        <div style={{
+        {/* background image*/}
+        {/* <div style={{
           backgroundImage: 'url("/logos/white-bull.png")',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -51,10 +51,10 @@ export default function Home() {
           left: 0,
           right: 0,
           bottom: 0,
-          opacity: 0.33, // Adjust the opacity as needed
-        }}></div>
+          opacity: 1, // Adjust the opacity as needed
+        }}></div> */}
 
-        {/* Text Content */}
+        {/* Banner Heading and subtext */}
         <div className="px-4 py-20 md:px-0" style={{ position: 'relative', zIndex: 1 }}>
           <h1 className="text-6xl mb-4 text-white">Own Your Money</h1>
           <h2 className="text-2xl text-white">The best place to buy Bitcoin!
@@ -64,8 +64,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/*Page content */}
+      <section className="bg-custom-black px-1 sm:px-3 md:px-5 lg:px-8 xl:px-10">
+        
+        
+      <section className="container mx-auto my-12 px-4 md:px-0 text-gray-900">
+        <div className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
+            <h3 className="mb-2 text-2xl font-bold tracking-tight">Bull Bitcoin is Launching in India!</h3>
+            <p className="font-normal">
+                The world-renowned Bitcoin-only non-custodial automated OTC desk, born in Canada, will soon serve customers in India.
+                {/* <a href="https://www.bullbitcoin.com/india" target="_blank" rel="noopener noreferrer">Subscribe here</a> to become one of the first users! */}
+            </p>
+            <p>
+                Bull Bitcoin India's mission is to help Indians protect their wealth by using the world's most secure sound money to store their savings. 
+                As a non-custodial desk, we promote cypherpunk best practices, emphasizing that if you don't own the keys to your Bitcoin, you don't own your money.
+            </p>
+            <p>
+                Indians are known for their appreciation of gold as a mechanism to store their wealth and pass it on to future generations. 
+                Estimates show that Indians collectively own 25,000 tons of gold, which represents 10% of the world's total gold holdings. 
+                Our mission will be to demonstrate that Bitcoin is a superior alternative to gold, and facilitate the transition from gold to Bitcoin as a store-of-value.
+            </p>
+            <p>
+                Indians will be able to purchase Bitcoin with INR bank transfers and receive the Bitcoin directly to their Bitcoin wallet. 
+                They will also be able to sell Bitcoin and receive INR in their local bank account.
+            </p>
+            <p>
+                Bull Bitcoin supports advanced features such as Lightning Network, Liquid Network, and transaction batching. 
+                Indian's will be able to place orders via web platform but also via a mobile app which includes a self-custodial Bitcoin wallet compatible with Lightning and Liquid network.
+            </p>
+            <p>
+                Bull Bitcoin will offer the following services: Spot Buy Bitcoin Orders, Rupee Cost Averaging, Limit Orders, and Auto-sell Bitcoin addresses.
+            </p>
+        </div>
+</section>
 
-      <section className="bg-custom-black ">
+        
         {/* Pricer Placeholder */}
 
 
@@ -75,15 +108,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <a href="https://www.bullbitcoin.com/blog/bull-bitcoin-prime-services-for-bitcoin-investors-pdf-guide" target="_blank" rel="noopener noreferrer" className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
               <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Introducing the Bull Bitcoin Prime PDF Guide for Sovereign Investors</h3>
-              <p className="font-normal text-gray-700">Get the Bull Bitcoin Prime PDF; an invaluable resource for Sovereign Individuals, Corporations, Early Adopters, and Professionals</p>
+              <p className="font-normal text-gray-900">Get the Bull Bitcoin Prime PDF; an invaluable resource for Sovereign Individuals, Corporations, Early Adopters, and Professionals</p>
             </a>
             <a href="https://www.bullbitcoin.com/blog/why-bull-bitcoin-is-immune-from-ftx-collapse-and-crypto-contagion" target="_blank" rel="noopener noreferrer" className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
               <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Why Bull Bitcoin is immune from FTX collapse and “crypto contagion”</h3>
-              <p className="font-normal text-gray-700">In this article, I will explain why Bull Bitcoin is the safest Bitcoin exchange in Canada to buy and sell Bitcoin, and potentially one of the safest online Bitcoin exchange in the world.</p>
+              <p className="font-normal text-gray-900">In this article, I will explain why Bull Bitcoin is the safest Bitcoin exchange in Canada to buy and sell Bitcoin, and potentially one of the safest online Bitcoin exchange in the world.</p>
             </a>
             <a href="https://www.bullbitcoin.com/blog/bitcoinsupportcom-by-bull-bitcoin-a-call-center-for-wallet-self-custody" target="_blank" rel="noopener noreferrer" className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100">
               <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">BitcoinSupport.com by Bull Bitcoin: A Call Center for Wallet Self-Custody</h3>
-              <p className="font-normal text-gray-700">Bitcoin Support by Bull Bitcoin is a new service designed to help anybody install, secure and manage their own Bitcoin Wallets with 1-on-1 phone calls and ongoing support calls. Available worldwide!</p>
+              <p className="font-normal text-gray-900">Bitcoin Support by Bull Bitcoin is a new service designed to help anybody install, secure and manage their own Bitcoin Wallets with 1-on-1 phone calls and ongoing support calls. Available worldwide!</p>
             </a>
           </div>
         </section>
@@ -158,3 +191,4 @@ export default function Home() {
 //     </Link>
 //   </div>
 // </div>
+

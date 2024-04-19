@@ -7,12 +7,17 @@ Website for Bull Bitcoin India.
   1. Next.js 14.1.4 (Typescript, Tailwind CSS)   
   2. Docker 
 
-## Usage
+## Usage 
+
+### Production
 1. On a Linux install Docker, then
 2. ```bash
    sudo bash setup.sh 
 
-## Dev
+### Dev
+1. npm install
+2. npx next telemetry disable
+3. npm run dev
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
