@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import "/src/app/globals.css";
-
+import SubscribeForm from './components/subscribe_form';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -73,8 +73,9 @@ export default function Home() {
             <h3 className="mb-2 text-2xl font-bold tracking-tight">Bull Bitcoin is Launching in India!</h3>
             <p className="font-normal">
                 The world-renowned Bitcoin-only non-custodial automated OTC desk, born in Canada, will soon serve customers in India.
-                {/* <a href="https://www.bullbitcoin.com/india" target="_blank" rel="noopener noreferrer">Subscribe here</a> to become one of the first users! */}
+          
             </p>
+            <SubscribeForm/>
             <p>
                 Bull Bitcoin India's mission is to help Indians protect their wealth by using the world's most secure sound money to store their savings. 
                 As a non-custodial desk, we promote cypherpunk best practices, emphasizing that if you don't own the keys to your Bitcoin, you don't own your money.

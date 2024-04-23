@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18-slim
 
 WORKDIR /home/node/app
 
@@ -8,13 +8,13 @@ RUN chown -R node:node /home/node/app
 
 USER node
 
-ENV SERVER_PORT=3583
-
 RUN npm install
 RUN npx next telemetry disable
 
 COPY --chown=node:node . .
 
+RUN npm run build
+
 EXPOSE 3000
 
-CMD npm run build && npm run start
+CMD npm run start
