@@ -11,7 +11,8 @@ Website for Bull Bitcoin India.
 
 ### Production
 1. On a Linux install Docker, then
-2. ```bash
+2. Copy .example.env to .env and update .env 
+3. ```bash
    sudo bash setup.sh 
 
 ### Dev
