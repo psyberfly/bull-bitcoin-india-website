@@ -1,7 +1,8 @@
 # Bull Bitcoin India Website
 
 ## About
-Website for Bull Bitcoin India. 
+Landing Page Website for Bull Bitcoin India.
+With subscription form and server-side MailerLite API to add subscribers to a group.
 
 ## Stack
   1. Next.js 14.1.4 (Typescript, Tailwind CSS)   
